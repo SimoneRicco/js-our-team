@@ -33,5 +33,5 @@ const array = [{
 const out = document.querySelector(".output");
 for (const key in array) {
     console.log(`Nome: ${array[key].name}, Ruolo: ${array[key].role}, Immagine: ${array[key].image}`);
-    out.innerHTML += `Nome: ${array[key].name}, Ruolo: ${array[key].role}, Immagine: ${array[key].image} <br>`;
+    out.innerHTML += `<div> Nome: ${array[key].name}, Ruolo: ${array[key].role} <img src="assets/img/${array[key].image}" alt=""> </div>`;
 }
